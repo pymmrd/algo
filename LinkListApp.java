@@ -1,7 +1,7 @@
 /**
 * Author:zougang
 * Date:2016/08/02
-* Email:zougang@nagain.com
+* Email:b.zougang@gmail.com
 * 单链表
 * 实现功能如下:
 *  1. 在链表头插入数据项 insertFirst函数 算法复杂度O(1)
