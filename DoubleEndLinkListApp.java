@@ -10,7 +10,7 @@
 *   3. 删除链表头部元素   deleteFirst  算法复杂度O(1)
 * 
 */
-public class DoubleEndApp{
+public class DoubleEndLinkListApp{
     public static void main(String[] args){
         DoubleEndLinkList dell = new DoubleEndLinkList();
         dell.insertLast(1);
