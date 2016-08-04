@@ -5,9 +5,10 @@
 * 双端链表, 与传统的链表非常相似,增加对最后一个连接点的引用,
 * 就像对第一个连接点的应用一样
 * 实现功能:
-*   1. 在链表头部插入元素 insertFirst
-*   2. 在链表尾部插入元素 insertLast
-*   3. 删除链表头部元素   deleteFirst
+*   1. 在链表头部插入元素 insertFirst  算法复杂度O(1)
+*   2. 在链表尾部插入元素 insertLast   算法复杂度O(1)
+*   3. 删除链表头部元素   deleteFirst  算法复杂度O(1)
+* 
 */
 public class DoubleEndApp{
     public static void main(String[] args){

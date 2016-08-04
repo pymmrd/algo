@@ -4,12 +4,12 @@
 * Email:zougang@nagain.com
 * 单链表
 * 实现功能如下:
-*  1. 在链表头插入数据项 insertFirst函数
-*  2. 在链表头删除数据项 deleteFirst函数
+*  1. 在链表头插入数据项 insertFirst函数 算法复杂度O(1)
+*  2. 在链表头删除数据项 deleteFirst函数 算法复杂度O(1) 
 *  3. 遍历链表显示它的内容 displayLinkList函数
-*  4. 找到特定的链表结点 find函数
-*  5. 删除特定的链表结点 delete函数
-*  6. 在链表某个特定结点后插入新结点 insertAfter函数
+*  4. 找到特定的链表结点 find函数  算法复杂度O(n)
+*  5. 删除特定的链表结点 delete函数 算法复杂度O(n)
+*  6. 在链表某个特定结点后插入新结点 insertAfter函数 算法复杂度O(n)
 */
 
 public class LinkListApp{
