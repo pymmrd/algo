@@ -1,7 +1,7 @@
 /**
 * Author:zougang
 * Date:2016/08/02
-* Email:zougang@nagain.com
+* Email:b.zougang@gmail.com
 * 双端链表, 与传统的链表非常相似,增加对最后一个连接点的引用,
 * 就像对第一个连接点的应用一样
 * 实现功能:
