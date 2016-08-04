@@ -1,8 +1,8 @@
 /*
-*数组实现栈数据结构
-*Author:zougang
-*Date:2016/08/01
-*Email:zougang@nagain.com
+* Author:zougang
+* Date:2016/08/01
+* Email:b.zougang@gmail.com
+* 数组实现栈数据结构
 */
 
 public class StackX{
