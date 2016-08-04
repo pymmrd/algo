@@ -1,8 +1,11 @@
 /*
-*数组实现优先级队列
-*Author:zougang
-*Date:2016/08/01
-*Email:zougang@nagain.com
+* Author:zougang
+* Date:2016/08/01
+* Email:b.zougang@gmail.com
+* 数组实现优先级队列
+* 实现功能:
+*  1. 队列插入
+*  2. 出队列
 */
 
 public class PriorityQ{
@@ -32,10 +35,8 @@ class PriorityQueue{
         this.maxSize = maxSize;
     }
 
+    /* 元素插入到队列中 */
     public void insert(int item){
-    /**
-        元素插入到队列中
-    */
         //TODO 检查队列是否已满
         int j;
         if (!this.isFull()){
@@ -51,11 +52,9 @@ class PriorityQueue{
             this.iter();
         }
     }
-
+    
+    /* 出队列  */
     public int remove(){
-    /**
-     *   获取队列元素
-     */
         //TODO 检查队列是否为空
         return this.priArray[--this.nItems];
     }
