@@ -1,8 +1,8 @@
 /*
-*数组实现优先级队列
-*Author:zougang
-*Date:2016/08/01
-*Email:zougang@nagain.com
+* Author:zougang
+* Date:2016/08/01
+* Email:b.zougang@gmail.com
+* 数组实现优先级队列
 */
 
 public class QueueX{
@@ -32,6 +32,7 @@ class Queue{
         this.nItems = 0;
     }
 
+    /* 入队列 */
     public void insert(int item){
         if (this.rear == this.maxSize){
             this.rear = 0;
@@ -40,6 +41,7 @@ class Queue{
         this.nItems++;
     }
 
+    /* 出队列 */
     public int remove(){
         if (this.front == this.maxSize){
             this.front = 0;
@@ -49,10 +51,12 @@ class Queue{
         return temp;
     }
 
+    /* 队列是否为空 */
     public void isEmpty(){
         return this.nItems == 0;
     }
 
+    /* 队列是否已满 */
     public void isFull(){
         return this.nItems == this.maxSize;
     }
