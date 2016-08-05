@@ -119,8 +119,8 @@ class DoublyLinked{
             this.last = null;
         }else{
             this.first.next.previous = null;
-            this.first = this.first.next;
         }
+        this.first = this.first.next;
         return temp;
     }
 
@@ -128,11 +128,11 @@ class DoublyLinked{
     public Link deleteLast(){
         Link temp = this.last;
         if (this.first.next == null){
-            this.last = null;
+            this.first = null;
         }else{
             this.last.previous.next = null;
-            this.last = this.last.previous;
         }
+        this.last = this.last.previous;
         return temp;
     }
 
