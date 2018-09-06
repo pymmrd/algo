@@ -25,9 +25,12 @@ public class TriangleApp{
 
     public static int recurse(int n){
         if (n==1){
+            System.out.println("Returning 1");
             return 1;
         }else{
-            return n + recurse(n-1);
+            int temp = n + recurse(n-1);
+            System.out.println("Returning " + temp);
+            return temp;
         }
     }
 
